@@ -1,0 +1,34 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# PyCharm
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+*.env
+
+# Données
+data/raw/**
+data/interim/**
+data/processed/**
+
+# Conserver la structure des dossiers
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Archives
+*.zip
+
+# Résultats générés
+reports/figures/**
+!reports/figures/.gitkeep
